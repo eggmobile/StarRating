@@ -8,15 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StarRatingView : UIView
+@interface StarRatingView : UIView{
+	UIView * zeroView;
+	UIImageView * firstStarView;
+	UIImageView * secondStarView;
+	UIImageView * thirdStarView;
+	UIImageView * fourthStarView;
+	UIImageView * fifthStarView;
+}
 
 @property(nonatomic) int starValue;
-@property(strong, nonatomic) UIView * zeroView;
-@property(strong, nonatomic) UIImageView * firstStarView;
-@property(strong, nonatomic) UIImageView * secondStarView;
-@property(strong, nonatomic) UIImageView * thirdStarView;
-@property(strong, nonatomic) UIImageView * fourthStarView;
-@property(strong, nonatomic) UIImageView * fifthStarView;
 
 @property(strong, nonatomic) UIImage * starImage;
 @property(strong, nonatomic) UIImage * darkStarImage;
