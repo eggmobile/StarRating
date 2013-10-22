@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StarRatingView.h"
 
 @interface ViewController : UIViewController
+
+@property (strong,nonatomic) UIView * starRatingView;
 
 @end

@@ -21,6 +21,10 @@
 		1D72DEB4181644C0006FB789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D72DE96181644BF006FB789 /* UIKit.framework */; };
 		1D72DEBC181644C0006FB789 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D72DEBA181644C0006FB789 /* InfoPlist.strings */; };
 		1D72DEBE181644C0006FB789 /* StarRatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D72DEBD181644C0006FB789 /* StarRatingTests.m */; };
+		1D72DEC918164501006FB789 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D72DEC818164501006FB789 /* StarRatingView.m */; };
+		1D72DECD181661DF006FB789 /* star_black_a50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D72DECA181661DF006FB789 /* star_black_a50.png */; };
+		1D72DECE181661DF006FB789 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D72DECB181661DF006FB789 /* star.png */; };
+		1D72DECF181661DF006FB789 /* star_white_a50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D72DECC181661DF006FB789 /* star_white_a50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		1D72DEB9181644C0006FB789 /* StarRatingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarRatingTests-Info.plist"; sourceTree = "<group>"; };
 		1D72DEBB181644C0006FB789 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D72DEBD181644C0006FB789 /* StarRatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarRatingTests.m; sourceTree = "<group>"; };
+		1D72DEC718164501006FB789 /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		1D72DEC818164501006FB789 /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		1D72DECA181661DF006FB789 /* star_black_a50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_black_a50.png; sourceTree = "<group>"; };
+		1D72DECB181661DF006FB789 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		1D72DECC181661DF006FB789 /* star_white_a50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_white_a50.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 		1D72DE86181644BF006FB789 = {
 			isa = PBXGroup;
 			children = (
+				1D72DED0181661EB006FB789 /* images */,
 				1D72DE98181644BF006FB789 /* StarRating */,
 				1D72DEB7181644C0006FB789 /* StarRatingTests */,
 				1D72DE91181644BF006FB789 /* Frameworks */,
@@ -117,6 +127,8 @@
 				1D72DEA4181644BF006FB789 /* Main.storyboard */,
 				1D72DEA7181644BF006FB789 /* ViewController.h */,
 				1D72DEA8181644BF006FB789 /* ViewController.m */,
+				1D72DEC718164501006FB789 /* StarRatingView.h */,
+				1D72DEC818164501006FB789 /* StarRatingView.m */,
 				1D72DEAA181644BF006FB789 /* Images.xcassets */,
 				1D72DE99181644BF006FB789 /* Supporting Files */,
 			);
@@ -150,6 +162,16 @@
 				1D72DEBA181644C0006FB789 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D72DED0181661EB006FB789 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D72DECA181661DF006FB789 /* star_black_a50.png */,
+				1D72DECB181661DF006FB789 /* star.png */,
+				1D72DECC181661DF006FB789 /* star_white_a50.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D72DECD181661DF006FB789 /* star_black_a50.png in Resources */,
+				1D72DECE181661DF006FB789 /* star.png in Resources */,
+				1D72DECF181661DF006FB789 /* star_white_a50.png in Resources */,
 				1D72DEAB181644BF006FB789 /* Images.xcassets in Resources */,
 				1D72DE9D181644BF006FB789 /* InfoPlist.strings in Resources */,
 				1D72DEA6181644BF006FB789 /* Main.storyboard in Resources */,
@@ -250,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D72DEA9181644BF006FB789 /* ViewController.m in Sources */,
+				1D72DEC918164501006FB789 /* StarRatingView.m in Sources */,
 				1D72DEA3181644BF006FB789 /* AppDelegate.m in Sources */,
 				1D72DE9F181644BF006FB789 /* main.m in Sources */,
 			);
